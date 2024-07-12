@@ -1,0 +1,153 @@
+version: "3.1"
+
+intents:
+  - greet
+  - goodbye
+  - ask_what_is_investopedia
+  - ask_how_investopedia_works_for_entrepreneurs
+  - ask_role_of_incubators
+  - ask_how_to_get_started
+  - ask_access_from_mobile
+  - ask_platform_security
+  - ask_business_types
+  - ask_pivot_business
+  - ask_team_details
+  - ask_contact_support
+  - ask_kyc_approval_time
+  - ask_proposal_verification_time
+  - ask_equity_transfer_process
+  - ask_kitta_and_percent
+  - ask_platform_fee
+  - ask_multiple_investors_same_bid
+  - ask_location
+  - ask_platform_investment
+  - ask_account_creation_fee
+  - ask_investor_early_exit
+  - ask_legal_documents
+  - ask_investor_types
+  - ask_manage_financial_transactions
+  - ask_payment_methods
+  - ask_platform_fee_structure
+  - ask_student_benefits
+  - ask_platform_support_business_growth
+  - ask_entrepreneur_support
+  - ask_technology_used
+  - ask_transaction_fees
+  - ask_kyc_importance
+  - ask_bid_withdrawal
+  - ask_team_change
+  - ask_platform_reputation
+  - ask_submit_proposal
+
+actions:
+  - action_explain_investopedia
+  - action_explain_investopedia_for_entrepreneurs
+  - action_role_of_incubators
+  - action_how_to_get_started
+  - action_access_from_mobile
+  - action_platform_security
+  - action_business_types
+  - action_pivot_business
+  - action_team_details
+  - action_contact_support
+  - action_kyc_approval_time
+  - action_proposal_verification_time
+  - action_equity_transfer_process
+  - action_kitta_and_percent
+  - action_platform_fee
+  - action_multiple_investors_same_bid
+  - action_location
+  - action_platform_investment
+  - action_account_creation_fee
+  - action_investor_early_exit
+  - action_legal_documents
+  - action_investor_types
+  - action_manage_financial_transactions
+  - action_payment_methods
+  - action_platform_fee_structure
+  - action_student_benefits
+  - action_platform_support_business_growth
+  - action_entrepreneur_support
+  - action_technology_used
+  - action_transaction_fees
+  - action_kyc_importance
+  - action_bid_withdrawal
+  - action_team_change
+  - action_platform_reputation
+  - action_submit_proposal
+
+responses:
+  utter_greet:
+    - text: "Hello! How can I assist you today?"
+  utter_goodbye:
+    - text: "Goodbye! Have a great day."
+  utter_ask_what_is_investopedia:
+    - text: "investopedia is a comprehensive investment platform."
+  utter_ask_how_investopedia_works_for_entrepreneurs:
+    - text: "investopedia provides a platform for entrepreneurs to connect with investors."
+  utter_ask_role_of_incubators:
+    - text: "Incubators play a crucial role in helping startups grow by providing resources and mentorship."
+  utter_ask_how_to_get_started:
+    - text: "To get started with investopedia, you need to create an account and complete the necessary KYC formalities."
+  utter_ask_access_from_mobile:
+    - text: "Yes, investopedia can be accessed from mobile devices."
+  utter_ask_platform_security:
+    - text: "investopedia uses advanced security measures to protect user data."
+  utter_ask_business_types:
+    - text: "investopedia supports various types of businesses including startups and established companies."
+  utter_ask_pivot_business:
+    - text: "investopedia helps businesses pivot by providing them with new opportunities and resources."
+  utter_ask_team_details:
+    - text: "You can find information about our team on the investopedia website."
+  utter_ask_contact_support:
+    - text: "You can contact investopedia support through email or phone."
+  utter_ask_kyc_approval_time:
+    - text: "KYC approval usually takes 2-3 business days."
+  utter_ask_proposal_verification_time:
+    - text: "Proposal verification takes about a week."
+  utter_ask_equity_transfer_process:
+    - text: "The equity transfer process involves legal documentation and approval from the platform."
+  utter_ask_kitta_and_percent:
+    - text: "Kitta refers to a unit of shares, and the percentage represents the ownership in the company."
+  utter_ask_platform_fee:
+    - text: "investopedia charges a nominal platform fee for its services."
+  utter_ask_multiple_investors_same_bid:
+    - text: "Yes, multiple investors can place the same bid on a proposal."
+  utter_ask_location:
+    - text: "investopedia is headquartered in [Location]."
+  utter_ask_platform_investment:
+    - text: "investopedia supports various investment options including equity and debt."
+  utter_ask_account_creation_fee:
+    - text: "There is no fee for creating an account on investopedia."
+  utter_ask_investor_early_exit:
+    - text: "Early exit for investors is possible under certain conditions."
+  utter_ask_legal_documents:
+    - text: "Legal documents are required for verification and compliance."
+  utter_ask_investor_types:
+    - text: "investopedia caters to both individual and institutional investors."
+  utter_ask_manage_financial_transactions:
+    - text: "investopedia helps manage financial transactions securely."
+  utter_ask_payment_methods:
+    - text: "investopedia supports various payment methods including bank transfers and credit cards."
+  utter_ask_platform_fee_structure:
+    - text: "The platform fee structure is transparent and available on our website."
+  utter_ask_student_benefits:
+    - text: "investopedia offers benefits for students interested in entrepreneurship."
+  utter_ask_platform_support_business_growth:
+    - text: "investopedia supports business growth through funding and mentorship."
+  utter_ask_entrepreneur_support:
+    - text: "investopedia provides comprehensive support for entrepreneurs."
+  utter_ask_technology_used:
+    - text: "investopedia uses cutting-edge technology to provide a seamless experience."
+  utter_ask_transaction_fees:
+    - text: "Transaction fees vary based on the type of investment."
+  utter_ask_kyc_importance:
+    - text: "KYC is important for compliance and security purposes."
+  utter_ask_bid_withdrawal:
+    - text: "You can withdraw your bid before the proposal is finalized."
+  utter_ask_team_change:
+    - text: "You can update team information through your account settings."
+  utter_ask_platform_reputation:
+    - text: "investopedia has a strong reputation in the investment community."
+  utter_ask_submit_proposal:
+    - text: "You can submit a proposal through your account dashboard."

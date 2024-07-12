@@ -1,0 +1,186 @@
+version: "3.1"
+nlu:
+  - intent: greet
+    examples: |
+      - Hello
+      - Hi
+      - Hey there
+  - intent: goodbye
+    examples: |
+      - Bye
+      - See you later
+  - intent: ask_what_is_investopedia
+    examples: |
+      - What is investopedia?
+      - Can you tell me about investopedia?
+      - Explain investopedia to me.
+  - intent: ask_how_investopedia_works_for_entrepreneurs
+    examples: |
+      - How does investopedia work for entrepreneurs?
+      - What can entrepreneurs do on investopedia?
+      - How can entrepreneurs benefit from investopedia?
+  - intent: ask_role_of_incubators
+    examples: |
+      - What is the role of incubators?
+      - How do incubators help startups?
+      - Can you explain the role of incubators?
+  - intent: ask_how_to_get_started
+    examples: |
+      - How do I get started with investopedia?
+      - What are the steps to start using investopedia?
+      - How can I begin using investopedia?
+  - intent: ask_access_from_mobile
+    examples: |
+      - Can I access investopedia from my mobile?
+      - Is there a mobile app for investopedia?
+      - Can I use investopedia on mobile devices?
+  - intent: ask_platform_security
+    examples: |
+      - How secure is investopedia?
+      - What security measures does investopedia use?
+      - Is investopedia platform secure?
+  - intent: ask_business_types
+    examples: |
+      - What types of businesses does investopedia support?
+      - Can established companies use investopedia?
+      - Does investopedia support startups?
+  - intent: ask_pivot_business
+    examples: |
+      - How can investopedia help my business pivot?
+      - What support does investopedia offer for pivoting businesses?
+      - Can investopedia assist in business pivot?
+  - intent: ask_team_details
+    examples: |
+      - Can you tell me about the investopedia team?
+      - Where can I find team information?
+      - Who are the members of the investopedia team?
+  - intent: ask_contact_support
+    examples: |
+      - How can I contact investopedia support?
+      - What is the contact info for investopedia support?
+      - How do I reach investopedia customer service?
+  - intent: ask_kyc_approval_time
+    examples: |
+      - How long does KYC approval take?
+      - What is the time frame for KYC approval?
+      - When will my KYC be approved?
+  - intent: ask_proposal_verification_time
+    examples: |
+      - How long does proposal verification take?
+      - What is the time frame for proposal verification?
+      - When will my proposal be verified?
+  - intent: ask_equity_transfer_process
+    examples: |
+      - How does the equity transfer process work?
+      - What is the process for transferring equity?
+      - Can you explain the equity transfer process?
+  - intent: ask_kitta_and_percent
+    examples: |
+      - What is kitta and percentage in equity?
+      - Can you explain kitta and percent in shares?
+      - What does kitta mean?
+  - intent: ask_platform_fee
+    examples: |
+      - What is the platform fee for investopedia?
+      - Does investopedia charge a platform fee?
+      - How much is the investopedia platform fee?
+  - intent: ask_multiple_investors_same_bid
+    examples: |
+      - Can multiple investors place the same bid?
+      - Is it possible for several investors to make the same bid?
+      - Can more than one investor bid the same amount?
+  - intent: ask_location
+    examples: |
+      - Where is investopedia located?
+      - What is the location of investopedia headquarters?
+      - Where is the investopedia office?
+  - intent: ask_platform_investment
+    examples: |
+      - What types of investments does investopedia support?
+      - Can I make equity and debt investments on investopedia?
+      - What investment options are available on investopedia?
+  - intent: ask_account_creation_fee
+    examples: |
+      - Is there a fee for creating an account on investopedia?
+      - Do I have to pay to create an account?
+      - How much is the account creation fee?
+  - intent: ask_investor_early_exit
+    examples: |
+      - Can investors exit early?
+      - Is early exit possible for investors?
+      - How can investors exit early?
+  - intent: ask_legal_documents
+    examples: |
+      - What legal documents are required?
+      - Do I need to provide legal documents?
+      - Why are legal documents necessary?
+  - intent: ask_investor_types
+    examples: |
+      - What types of investors does investopedia cater to?
+      - Does investopedia support individual and institutional investors?
+      - Who can invest through investopedia?
+  - intent: ask_manage_financial_transactions
+    examples: |
+      - How does investopedia manage financial transactions?
+      - Is it safe to do financial transactions on investopedia?
+      - Who handles financial transactions on investopedia?
+  - intent: ask_payment_methods
+    examples: |
+      - What payment methods are accepted?
+      - Can I use a credit card on investopedia?
+      - Are bank transfers supported?
+  - intent: ask_platform_fee_structure
+    examples: |
+      - What is the fee structure for investopedia?
+      - How are fees structured on investopedia?
+      - Can you explain the fee structure?
+  - intent: ask_student_benefits
+    examples: |
+      - Does investopedia offer benefits for students?
+      - What are the benefits for student entrepreneurs?
+      - Are there any student-specific benefits?
+  - intent: ask_platform_support_business_growth
+    examples: |
+      - How does investopedia support business growth?
+      - Can investopedia help my business grow?
+      - What support does investopedia offer for business growth?
+  - intent: ask_entrepreneur_support
+    examples: |
+      - What support does investopedia provide for entrepreneurs?
+      - How does investopedia help entrepreneurs?
+      - Is there any support for entrepreneurs on investopedia?
+  - intent: ask_technology_used
+    examples: |
+      - What technology does investopedia use?
+      - Can you tell me about the technology behind investopedia?
+      - What tech stack does investopedia use?
+  - intent: ask_transaction_fees
+    examples: |
+      - What are the transaction fees on investopedia?
+      - How much are the fees for transactions?
+      - Can you explain the transaction fees?
+  - intent: ask_kyc_importance
+    examples: |
+      - Why is KYC important?
+      - What is the importance of KYC?
+      - Why do I need to complete KYC?
+  - intent: ask_bid_withdrawal
+    examples: |
+      - Can I withdraw my bid?
+      - How do I withdraw a bid?
+      - Is bid withdrawal possible?
+  - intent: ask_team_change
+    examples: |
+      - How can I change my team information?
+      - Can I update team details?
+      - Is it possible to change team info?
+  - intent: ask_platform_reputation
+    examples: |
+      - What is the reputation of investopedia?
+      - How reputable is investopedia?
+      - Is investopedia well-regarded?
+  - intent: ask_submit_proposal
+    examples: |
+      - How do I submit a proposal?
+      - What are the steps to submit a proposal?
+      - Can I submit a proposal on investopedia?

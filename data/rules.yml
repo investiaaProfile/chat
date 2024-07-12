@@ -1,0 +1,180 @@
+version: "3.1"
+rules:
+  - rule: Say goodbye when requested
+    steps:
+    - intent: goodbye
+    - action: utter_goodbye
+  - rule: respond to FAQ
+    steps:
+      - intent: ask_what_is_investopedia
+      - action: utter_ask_what_is_investopedia
+
+  - rule: respond to FAQ
+    steps:
+      - intent: ask_how_investopedia_works_for_entrepreneurs
+      - action: utter_ask_how_investopedia_works_for_entrepreneurs
+
+  - rule: respond to FAQ
+    steps:
+      - intent: ask_role_of_incubators
+      - action: utter_ask_role_of_incubators
+
+  - rule: respond to FAQ
+    steps:
+      - intent: ask_how_to_get_started
+      - action: utter_ask_how_to_get_started
+
+  - rule: respond to FAQ
+    steps:
+      - intent: ask_access_from_mobile
+      - action: utter_ask_access_from_mobile
+
+  - rule: respond to FAQ
+    steps:
+      - intent: ask_platform_security
+      - action: utter_ask_platform_security
+
+  - rule: respond to FAQ
+    steps:
+      - intent: ask_business_types
+      - action: utter_ask_business_types
+
+  - rule: respond to FAQ
+    steps:
+      - intent: ask_pivot_business
+      - action: utter_ask_pivot_business
+
+  - rule: respond to FAQ
+    steps:
+      - intent: ask_team_details
+      - action: utter_ask_team_details
+
+  - rule: respond to FAQ
+    steps:
+      - intent: ask_contact_support
+      - action: utter_ask_contact_support
+
+  - rule: respond to FAQ
+    steps:
+      - intent: ask_kyc_approval_time
+      - action: utter_ask_kyc_approval_time
+
+  - rule: respond to FAQ
+    steps:
+      - intent: ask_proposal_verification_time
+      - action: utter_ask_proposal_verification_time
+
+  - rule: respond to FAQ
+    steps:
+      - intent: ask_equity_transfer_process
+      - action: utter_ask_equity_transfer_process
+
+  - rule: respond to FAQ
+    steps:
+      - intent: ask_kitta_and_percent
+      - action: utter_ask_kitta_and_percent
+
+  - rule: respond to FAQ
+    steps:
+      - intent: ask_platform_fee
+      - action: utter_ask_platform_fee
+
+  - rule: respond to FAQ
+    steps:
+      - intent: ask_multiple_investors_same_bid
+      - action: utter_ask_multiple_investors_same_bid
+
+  - rule: respond to FAQ
+    steps:
+      - intent: ask_location
+      - action: utter_ask_location
+
+  - rule: respond to FAQ
+    steps:
+      - intent: ask_platform_investment
+      - action: utter_ask_platform_investment
+
+  - rule: respond to FAQ
+    steps:
+      - intent: ask_account_creation_fee
+      - action: utter_ask_account_creation_fee
+
+  - rule: respond to FAQ
+    steps:
+      - intent: ask_investor_early_exit
+      - action: utter_ask_investor_early_exit
+
+  - rule: respond to FAQ
+    steps:
+      - intent: ask_legal_documents
+      - action: utter_ask_legal_documents
+
+  - rule: respond to FAQ
+    steps:
+      - intent: ask_investor_types
+      - action: utter_ask_investor_types
+
+  - rule: respond to FAQ
+    steps:
+      - intent: ask_manage_financial_transactions
+      - action: utter_ask_manage_financial_transactions
+
+  - rule: respond to FAQ
+    steps:
+      - intent: ask_payment_methods
+      - action: utter_ask_payment_methods
+
+  - rule: respond to FAQ
+    steps:
+      - intent: ask_platform_fee_structure
+      - action: utter_ask_platform_fee_structure
+
+  - rule: respond to FAQ
+    steps:
+      - intent: ask_student_benefits
+      - action: utter_ask_student_benefits
+
+  - rule: respond to FAQ
+    steps:
+      - intent: ask_platform_support_business_growth
+      - action: utter_ask_platform_support_business_growth
+
+  - rule: respond to FAQ
+    steps:
+      - intent: ask_entrepreneur_support
+      - action: utter_ask_entrepreneur_support
+
+  - rule: respond to FAQ
+    steps:
+      - intent: ask_technology_used
+      - action: utter_ask_technology_used
+
+  - rule: respond to FAQ
+    steps:
+      - intent: ask_transaction_fees
+      - action: utter_ask_transaction_fees
+
+  - rule: respond to FAQ
+    steps:
+      - intent: ask_kyc_importance
+      - action: utter_ask_kyc_importance
+
+  - rule: respond to FAQ
+    steps:
+      - intent: ask_bid_withdrawal
+      - action: utter_ask_bid_withdrawal
+
+  - rule: respond to FAQ
+    steps:
+      - intent: ask_team_change
+      - action: utter_ask_team_change
+
+  - rule: respond to FAQ
+    steps:
+      - intent: ask_platform_reputation
+      - action: utter_ask_platform_reputation
+
+  - rule: respond to FAQ
+    steps:
+      - intent: ask_submit_proposal
+      - action: utter_ask_submit_proposal

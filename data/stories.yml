@@ -1,0 +1,182 @@
+version: "3.1"
+stories:
+  - story: happy path
+    steps:
+    - intent: greet
+    - action: utter_greet
+    - intent: goodbye
+    - action: utter_goodbye
+  - story: respond to FAQ
+    steps:
+    - intent: ask_what_is_investopedia
+    - action: utter_ask_what_is_investopedia
+
+  - story: respond to FAQ
+    steps:
+    - intent: ask_how_investopedia_works_for_entrepreneurs
+    - action: utter_ask_how_investopedia_works_for_entrepreneurs
+
+  - story: respond to FAQ
+    steps:
+    - intent: ask_role_of_incubators
+    - action: utter_ask_role_of_incubators
+
+  - story: respond to FAQ
+    steps:
+    - intent: ask_how_to_get_started
+    - action: utter_ask_how_to_get_started
+
+  - story: respond to FAQ
+    steps:
+    - intent: ask_access_from_mobile
+    - action: utter_ask_access_from_mobile
+
+  - story: respond to FAQ
+    steps:
+    - intent: ask_platform_security
+    - action: utter_ask_platform_security
+
+  - story: respond to FAQ
+    steps:
+    - intent: ask_business_types
+    - action: utter_ask_business_types
+
+  - story: respond to FAQ
+    steps:
+    - intent: ask_pivot_business
+    - action: utter_ask_pivot_business
+
+  - story: respond to FAQ
+    steps:
+    - intent: ask_team_details
+    - action: utter_ask_team_details
+
+  - story: respond to FAQ
+    steps:
+    - intent: ask_contact_support
+    - action: utter_ask_contact_support
+
+  - story: respond to FAQ
+    steps:
+    - intent: ask_kyc_approval_time
+    - action: utter_ask_kyc_approval_time
+
+  - story: respond to FAQ
+    steps:
+    - intent: ask_proposal_verification_time
+    - action: utter_ask_proposal_verification_time
+
+  - story: respond to FAQ
+    steps:
+    - intent: ask_equity_transfer_process
+    - action: utter_ask_equity_transfer_process
+
+  - story: respond to FAQ
+    steps:
+    - intent: ask_kitta_and_percent
+    - action: utter_ask_kitta_and_percent
+
+  - story: respond to FAQ
+    steps:
+    - intent: ask_platform_fee
+    - action: utter_ask_platform_fee
+
+  - story: respond to FAQ
+    steps:
+    - intent: ask_multiple_investors_same_bid
+    - action: utter_ask_multiple_investors_same_bid
+
+  - story: respond to FAQ
+    steps:
+    - intent: ask_location
+    - action: utter_ask_location
+
+  - story: respond to FAQ
+    steps:
+    - intent: ask_platform_investment
+    - action: utter_ask_platform_investment
+
+  - story: respond to FAQ
+    steps:
+    - intent: ask_account_creation_fee
+    - action: utter_ask_account_creation_fee
+
+  - story: respond to FAQ
+    steps:
+    - intent: ask_investor_early_exit
+    - action: utter_ask_investor_early_exit
+
+  - story: respond to FAQ
+    steps:
+    - intent: ask_legal_documents
+    - action: utter_ask_legal_documents
+
+  - story: respond to FAQ
+    steps:
+    - intent: ask_investor_types
+    - action: utter_ask_investor_types
+
+  - story: respond to FAQ
+    steps:
+    - intent: ask_manage_financial_transactions
+    - action: utter_ask_manage_financial_transactions
+
+  - story: respond to FAQ
+    steps:
+    - intent: ask_payment_methods
+    - action: utter_ask_payment_methods
+
+  - story: respond to FAQ
+    steps:
+    - intent: ask_platform_fee_structure
+    - action: utter_ask_platform_fee_structure
+
+  - story: respond to FAQ
+    steps:
+    - intent: ask_student_benefits
+    - action: utter_ask_student_benefits
+
+  - story: respond to FAQ
+    steps:
+    - intent: ask_platform_support_business_growth
+    - action: utter_ask_platform_support_business_growth
+
+  - story: respond to FAQ
+    steps:
+    - intent: ask_entrepreneur_support
+    - action: utter_ask_entrepreneur_support
+
+  - story: respond to FAQ
+    steps:
+    - intent: ask_technology_used
+    - action: utter_ask_technology_used
+
+  - story: respond to FAQ
+    steps:
+    - intent: ask_transaction_fees
+    - action: utter_ask_transaction_fees
+
+  - story: respond to FAQ
+    steps:
+    - intent: ask_kyc_importance
+    - action: utter_ask_kyc_importance
+
+  - story: respond to FAQ
+    steps:
+    - intent: ask_bid_withdrawal
+    - action: utter_ask_bid_withdrawal
+
+  - story: respond to FAQ
+    steps:
+    - intent: ask_team_change
+    - action: utter_ask_team_change
+
+  - story: respond to FAQ
+    steps:
+    - intent: ask_platform_reputation
+    - action: utter_ask_platform_reputation
+
+  - story: respond to FAQ
+    steps:
+    - intent: ask_submit_proposal
+    - action: utter_ask_submit_proposal
